@@ -1,0 +1,41 @@
+/* Estilos para telas pequenas (celulares) */
+@media only screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+    }
+  
+    .foto {
+      margin-top: 20px; /* Espaçamento entre a foto e o texto */
+    }
+  
+    .menu {
+      display: none; /* Ocultar o menu em telas pequenas */
+    }
+  
+    .logo {
+      font-size: 24px; /* Reduzir o tamanho da logo em telas pequenas */
+    }
+  
+    .redes-sociais {
+      margin-top: 20px; /* Espaçamento entre as redes sociais e o texto */
+    }
+  
+    .projetos {
+      padding: 20px; /* Adicionar espaço interno aos projetos */
+    }
+  
+    .projeto {
+      width: 100%; /* Fazer com que os projetos ocupem toda a largura em telas pequenas */
+    }
+  }
+  
+  /* Estilos para telas médias (tablets) */
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  
+  
+  
