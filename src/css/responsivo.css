@@ -1,41 +1,43 @@
-/* Estilos para telas pequenas (celulares) */
-@media only screen and (max-width: 480px) {
-    .container {
-      width: 100%;
+@media(Max-width: 1280px) {
+
+    .cabecalho {
+        padding: 30px;
     }
-  
-    .foto {
-      margin-top: 20px; /* Espaçamento entre a foto e o texto */
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
     }
-  
-    .menu {
-      display: none; /* Ocultar o menu em telas pequenas */
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
     }
-  
-    .logo {
-      font-size: 24px; /* Reduzir o tamanho da logo em telas pequenas */
+
+    .projetos .container-projetos {
+        padding: 0 30px;
     }
-  
-    .redes-sociais {
-      margin-top: 20px; /* Espaçamento entre as redes sociais e o texto */
+
+}
+
+@media(max-width: 425px) {
+    .home .informacoes h1 {
+        font-size: 30px;
     }
-  
+
+    .home .informacoes p {
+        font-size: 16px;
+    }
+
+    .home .container-foto img {
+        max-width: 320px;
+    }
+
     .projetos {
-      padding: 20px; /* Adicionar espaço interno aos projetos */
+        padding: 30px;
     }
-  
-    .projeto {
-      width: 100%; /* Fazer com que os projetos ocupem toda a largura em telas pequenas */
-    }
-  }
-  
-  /* Estilos para telas médias (tablets) */
-  @media only screen and (max-width: 768px) {
-    .container {
-      width: 90%;
-    }
-  }
-  
-  
-  
-  
+
+}
